@@ -1,0 +1,14 @@
+
+.borderBox {
+    border: 10px solid black;
+    height: 420px;
+    width: 420px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.box {
+    opacity: 0.5;
+}

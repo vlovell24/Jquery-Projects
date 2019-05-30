@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Match Game 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="alert alert-primary" role="alert">
+        <h4 class="alert-heading text-center">Press Start to Begin Game</h4>
+        <p class="text-center">Copy the computer's pattern.</p>
+        <hr>
+        <p class="mb-0 text-center">The game will get progressively harder every time you are correct.</p>
+    </div>
+    <div style="height: 400px; width: 400px; margin: 0 auto;">
+        <div class="borderBox">
+            <div class="row no-gutters" style="height: 200px; width: 400px">
+                <div class="col-md-6 bg-primary h-100 w-100 box" id="primary"></div>
+                <div class="col-md-6 bg-success h-100 w-100 box" id="success"></div>
+            </div>
+            <div class="row no-gutters" style="height: 200px; width: 400px">
+                <div class="col-md-6 bg-danger h-100 w-100 box" id="danger"></div>
+                <div class="col-md-6 bg-warning h-100 w-100 box" id="warning"></div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 50px">
+        <button type="button" class="btn btn-success btn-lg">START GAME</button>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="JAVASCRIPT/javascript.js"></script>
+</body>
+</html>
